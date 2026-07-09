@@ -2,7 +2,6 @@
 
 A personalized, highly efficient suite of custom nodes for ComfyUI, designed to streamline complex workflows, improve image quality, and provide a cleaner user experience.
 
-![ScarlotSoft Banner](link_a_una_imagen_de_banner_si_tienes.png) <!-- Reemplaza con una imagen real o borra esta línea -->
 
 ## 🚀 Features & Nodes
 
