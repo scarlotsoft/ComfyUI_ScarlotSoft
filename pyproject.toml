@@ -1,0 +1,8 @@
+[project]
+name = "ComfyUI_ScarlotSoft"
+version = "1.0.0"
+description = "ScarlotSoft custom nodes for ComfyUI"
+authors = [{ name = "ScarlotSoft" }]
+
+[tool.comfy]
+web = "./js"
