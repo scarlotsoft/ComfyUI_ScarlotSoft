@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- ADDITIONS FOR COMFYUI CUSTOM NODES ---
+
+# Ignorar modelos y archivos binarios pesados que no deben estar en el repo
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.bin
+
+# Ignorar carpetas comunes de descarga de modelos
+models/
+output/
+temp/
+
+# Archivos de sistema (Junk files)
+.DS_Store
+Thumbs.db
