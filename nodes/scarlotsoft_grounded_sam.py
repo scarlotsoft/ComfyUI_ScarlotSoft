@@ -43,7 +43,7 @@ class ScarlotSoft_GroundedSAM:
         return {
             "required": {
                 "image": ("IMAGE",),
-                "prompt": ("STRING", {"multiline": True, "default": "girl with red hair. boy with blue shirt."}),
+                "prompt": ("STRING", {"multiline": True, "default": "1girl. 1boy."}),
                 "box_threshold": ("FLOAT", {"default": 0.30, "min": 0.0, "max": 1.0, "step": 0.01}),
                 "text_threshold": ("FLOAT", {"default": 0.25, "min": 0.0, "max": 1.0, "step": 0.01}),
                 "invert_mask": ("BOOLEAN", {"default": False}),
